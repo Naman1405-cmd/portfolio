@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f6f8fa;
+    color: #222;
+}
+
+header {
+    background: linear-gradient(90deg, #4f8cff 0%, #6dd5ed 100%);
+    color: #fff;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 5px;
+    border-radius: 25px;
+    transition: background 0.3s, color 0.3s;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #4f8cff;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(79,140,255,0.08);
+    border-radius: 12px;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(90deg, #4f8cff 0%, #6dd5ed 100%);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+    color: #4f8cff;
+    text-align: center;
+    margin-top: 0;
+}
+
+.project {
+    border: 1px solid #e0e7ff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f0f6ff;
+    box-shadow: 0 1px 6px rgba(79,140,255,0.07);
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input, .contact-form textarea {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #b3d1ff;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #6dd5ed;
+    color: #222;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+    nav a {
+        padding: 10px 8px;
+        font-size: 1em;
+    }
+    .contact-form input, .contact-form textarea {
+        max-width: 100%;
+    }
+}
